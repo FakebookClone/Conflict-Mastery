@@ -5,21 +5,25 @@
     <title>Git Daily Workflow</title>
   </head>
   <body>
-    <p>Step 1 - Pull from Master Branch to get any updates</p>
-    <p>Step 2 - Create a new branch to start working on a single feature</p>
-    <p>Step 3 - Work on your feature on the new branch and then add to staging area after you're finsihed</p>
-    <p>Step 4 - Then in the console do a git add . to stage the repo.</p>
-    <p>Step 5 - Git commit -m "detailed message here"</p>
-    <p>Step 6 - Git checkout master</p>
-    <p>Step 7 - git pull ("fast-forward" means no conflicts)</p>
-    <p>Step 8 - git checkout branchname</p>
-    <p>Step 9 - git merge master (this will merge master into your branch)</p>
-    <p>Step 10 - git log (if needed. It shows recent commits)</p>
-    <p>Step 11 - NEVER git push origin master. We don't work off master!</p>
-    <p>Step 12 - git push origin branchname (If you git push origin ranchname -u, you can simply git push in the future for that branch</p>
-    <p>Step 13 - if there are merge conflicts, you need a special git commit after resolving them.</p>
-    <p>Step 14 - git push branchname</p>
-    <p>make a pull request</p>
-    <p>after pull request merged to master, you'll delete your branch</p>
+    <p>NOTE: Brandon -- Forks are for eating, not git hubbing with teams</p>
+    <p>Step 1 - Switch to and Pull from Master Branch to get any updates</p>
+    <p>Step 2 - Switch to your working branch, or create a new branch to start working on a single feature</p>
+    <p>Step 3 - Work on your feature on the new branch and then add/commit after you're finished.</p>
+    <p>Step 4 - Checkout to master</p>
+    <p>Step 5 - git pull to make sure your master is up to date</p>
+    <p>NOTE: If you take more than 3 seconds, be sure to update master by switching to master and pulling it again. master changes quickly.</p>
+    <p>Step 6 - Switch back to your working branch, do your work</p>
+    <p>Step 7 - Then in the console do a git add . to stage the repo.</p>
+    <p>Step 8 - Git commit -m "detailed message here"</p>
+    <p>Step 9 - Git checkout master</p>
+    <p>Step 10 - git pull ("fast-forward" means no conflicts)</p>
+    <p>Step 11 - git checkout branchname</p>
+    <p>Step 12 - git merge master (this will merge master into your branch)</p>
+    <p>NOTE: git log (if needed. It shows recent commits)</p>
+    <p>NOTE: NEVER git push origin master. We don't work off master!</p>
+    <p>Step 13 - git push origin branchname (If you git push origin branchname -u, you can simply git push in the future for that branch</p>
+    <p>NOTE: if there are merge conflicts, you need a extra git commit after resolving them.</p>
+    <p>Step 14 - make an offical git hub pull request to merge your completed branch to master once and for all</p>
+    <p>Step 15 - after pull request is merged to master, the one who accepted the request will delete your branch</p>
     </body>
 </html>
